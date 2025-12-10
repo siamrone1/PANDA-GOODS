@@ -501,14 +501,14 @@ body{
 
 .contact .input .submit {
     height: 53px;
-    width: 80px;
+    width: 100px;
     font-size: 12px;
 
 }
 
 .contact .input .email {
     height: 53px;
-    width: 183px;
+    width: 225px;
     padding: 20px;
     font-size: 12px;
 }
