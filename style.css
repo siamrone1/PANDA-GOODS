@@ -1,0 +1,530 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+* h2 {
+    color: #1F1F1F;
+}
+
+* p{
+    color: #4E4E4E;
+}
+body{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.contaner{
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+/* it,s nav section st */
+
+#nav {
+    height: 84px;
+}
+
+#nav .nav-img {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav .nav-img img {
+    height: 48px;
+}
+
+/* it,s nav section end */
+
+/* it,s hero section st */
+
+#hero {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    height: 455px;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+#hero .img-tv img {
+    height: 378px;
+}
+
+#hero .taxt h2 {
+    font-weight: 700;
+    font-size: 42px;
+}
+
+#hero .taxt p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+#hero .taxt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+#hero .taxt h3{
+    font-size: 41px;
+    color: #FF136F;
+    font-weight: 600;
+}
+
+#hero .taxt button {
+    background-color: #FF136F;
+    border: none;
+    color: #FFFFFF;
+    width: 168px;
+    height: 47px;
+    padding: 14px 20px;
+    border-radius: 6px;
+}
+
+
+
+/*  */
+
+
+.heading h2 {
+    height: 54px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.heading{
+    margin-top: 94px;
+}
+
+
+.contan-one {
+    /* background-color: #FF136F; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.contan-one #product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 25px;
+
+}
+
+.categories {
+    margin-top: 60px;
+}
+
+.contan-one #product img {
+    height: 95px;
+}
+
+
+.contan-two {
+    display: flex;
+    gap: 24px;
+}
+
+.contan-two #product{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    gap: 30px;
+    height: 550px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.contan-two #product img {
+    width: 290px;
+    height: 188px;
+}
+
+.contan-two #product .taxt h2 {
+    font-weight: 600;
+    height: 42px;
+    font-size: 24px;
+}
+.contan-two #product .taxt p{
+    font-size: 16px;
+}
+
+.contan-two #product .taxt {
+    font-weight: 500;
+    height: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.contan-two #product .taxt button {
+    background-color: #000;
+    padding: 14px 20px;
+    color: #FFFFFF;
+    margin-top: 22px;
+    gap: 10px;
+}
+
+
+.bag  .contan-two #product img {
+    width: 290px;
+    height: 290px;
+}
+
+#all-bag #product {
+    height: 610px;
+    width: 100%;
+
+}
+
+.contact {
+    background-color: #FFF2F1;
+    padding: 146px 246px;
+    margin: 150px 0 ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contact .taxt h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact .taxt p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+}
+
+
+.contact .input {
+    display: flex;
+    gap: 0;
+    
+}
+
+.contact .input .submit {
+    background-color: #FF136F;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    height: 73px;
+    width: 150px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.contact .input .email {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    height: 73px;
+    width: 483px;
+    padding: 30px;
+    font-size: 24px;
+    color: #CCCCCC;
+    
+}
+
+
+/* responseb to web site  */
+
+@media screen and (max-width:1200px) {
+
+    #hero .taxt h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+.contaner{
+    width: 88%;
+    margin: 0 auto;
+}
+
+#hero .img-tv img {
+    height: 358px;
+}
+
+#hero .taxt p{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#hero .taxt h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#hero .taxt button {
+    width: 118px;
+    font-weight: 600;
+}
+
+
+.contan-two #product{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contan-two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 24px;
+}
+
+.contan-two #product .taxt h2 {
+    font-weight: 700;
+    height: 46px;
+    font-size: 35px;
+}
+.contan-two #product .taxt{
+    gap: 30px;
+    justify-content: center;
+}
+
+.contan-two #product .taxt img {
+    height: auto;
+    width: auto;
+}
+
+.contact .input .submit {
+    height: 63px;
+    width: 100px;
+
+}
+
+.contact .input .email {
+    height: 63px;
+    width: 283px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+    
+}
+
+
+@media screen and (max-width:992px) {
+
+
+    #hero .taxt h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+    #hero .img-tv img {
+    height: 378px;
+}
+    #hero {
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.contaner{
+    width: 95%;
+    margin: 0 auto;
+}
+#hero .taxt p{
+    text-align: center;
+ }
+
+#hero .taxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+#hero .taxt button {
+    width: 178px;
+}
+
+#hero .taxt h3{
+    font-size: 41px;
+}
+
+.contan-one {
+    /* background-color: #FF136F; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+}
+
+.contan-two #product{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 120px;
+    width: 100%;
+
+}
+
+.contan-two #product .taxt button {
+    background-color: #000;
+    padding: 14px 20px;
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+
+.contact {
+    padding: 100px 100px;
+}
+
+.contact .input .submit {
+    height: 53px;
+    width: 100px;
+
+}
+
+.contact .input .email {
+    height: 53px;
+    width: 283px;
+    padding: 20px;
+    font-size: 14px;
+}
+    
+    
+}
+
+
+@media screen and (max-width:640px) {
+
+    #hero .taxt h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+ #hero .taxt p{
+    text-align: center;
+    font-size: 12px;
+ }
+    #hero {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+    .contaner{
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+#hero .taxt button {
+    width: 128px;
+}
+
+#hero .img-tv img {
+    height: 290px;
+}
+
+#hero .taxt h3{
+    font-size: 31px;
+}
+
+#nav .nav-img img {
+    height: 38px;
+
+    
+}
+
+.contan-two #product .taxt h2 {
+    height: 46px;
+    font-size: 22px;
+}
+
+.contan-two #product .taxt p {
+    font-size: 13px;
+}
+
+.contan-two #product .taxt button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.contan-two #product .taxt button {
+    background-color: #000;
+    padding: 14px 20px;
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+
+.contact {
+    padding: 100px 30px;
+    margin: 100px 0 ;
+    gap: 20px;
+}
+
+.contact .input .submit {
+    height: 53px;
+    width: 80px;
+    font-size: 12px;
+
+}
+
+.contact .input .email {
+    height: 53px;
+    width: 183px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+.contact .taxt h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact .taxt p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+}
+
+/* minimum size is 354 */
